@@ -6,6 +6,9 @@ var soal1 = "hello"
 var soal2 = "aabbbcc"
 
 function jawabsoal(soal) {
+    var hasil = {};
+    for (let i=0; i < soal.length; i++) {
+    }
      return hasil;
  }
  
