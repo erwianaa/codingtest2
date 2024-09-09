@@ -8,6 +8,7 @@ var soal2 = "aabbbcc"
 function jawabsoal(soal) {
     var hasil = {};
     for (let i=0; i < soal.length; i++) {
+       hasil[soal[i]]++
     }
      return hasil;
  }
