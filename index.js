@@ -8,7 +8,12 @@ var soal2 = "aabbbcc"
 function jawabsoal(soal) {
     var hasil = {};
     for (let i=0; i < soal.length; i++) {
-       hasil[soal[i]]++
+       var total = hasil[soal[i]]
+       if (total == undefined) {
+        hasil[soal[i]] = 1
+       } else {
+        hasil[soal[i]]++
+       }
     }
      return hasil;
  }
